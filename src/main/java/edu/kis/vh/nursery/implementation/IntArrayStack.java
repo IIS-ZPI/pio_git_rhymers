@@ -1,12 +1,10 @@
 package edu.kis.vh.nursery.implementation;
 
 public class IntArrayStack implements RhymerInterface{
-    public static final int empty = 0;
-    public static final int maxIndex = 11;
+    public static final int maxIndex = 12;
 
-    private final int[] numbersArray  = new int[maxIndex + 1];
-    private int total = 0;
-
+    private final int[] numbersArray  = new int[maxIndex];
+    private int total = -1;
 
     @Override
     public void push(int num) {
@@ -22,12 +20,12 @@ public class IntArrayStack implements RhymerInterface{
 
     @Override
     public boolean isEmpty() {
-        return total == empty;
+        return total == -1;
     }
 
     @Override
     public boolean isFull() {
-        return total == maxIndex;
+        return total == maxIndex - 1;
     }
 
     @Override
