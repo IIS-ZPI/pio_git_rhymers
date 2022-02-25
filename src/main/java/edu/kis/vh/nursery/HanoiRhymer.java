@@ -11,9 +11,12 @@ public class HanoiRhymer extends DefaultCountingOutRhymer {
 
     @Override
     public void countIn(int in) {
-        if (!callCheck() && in > peekaboo())
+        if (!callCheck() && in > peekaboo()) {
             totalRejected++;
-        else
+        } else {
             super.countIn(in);
+        }
     }
 }
+
+// Polecenia alt + -> to skrót forward/back
