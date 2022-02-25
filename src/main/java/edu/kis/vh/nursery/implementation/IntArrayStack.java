@@ -1,4 +1,4 @@
-package edu.kis.vh.nursery.list;
+package edu.kis.vh.nursery.implementation;
 
 public class IntArrayStack implements RhymerInterface{
     public static final int empty = 0;

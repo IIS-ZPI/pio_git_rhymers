@@ -1,7 +1,6 @@
-package edu.kis.vh.nursery.list;
+package edu.kis.vh.nursery.implementation;
 
 public class IntLinkedList implements RhymerInterface{
-
 
 	Node last;
 

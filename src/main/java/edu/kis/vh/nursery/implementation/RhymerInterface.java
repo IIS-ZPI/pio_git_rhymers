@@ -1,4 +1,4 @@
-package edu.kis.vh.nursery.list;
+package edu.kis.vh.nursery.implementation;
 
 public interface RhymerInterface {
     void push(int num);
