@@ -2,7 +2,7 @@ package edu.kis.vh.nursery.implementation;
 
 public class IntLinkedList implements RhymerInterface{
 
-	Node last;
+	private Node last;
 
 	@Override
 	public void push(int num) {
