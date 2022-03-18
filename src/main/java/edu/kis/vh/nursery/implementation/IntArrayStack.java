@@ -2,7 +2,6 @@ package edu.kis.vh.nursery.implementation;
 
 public class IntArrayStack implements RhymerInterface{
     public static final int maxIndex = 12;
-
     private final int[] numbersArray  = new int[maxIndex];
     private int total = -1;
 
